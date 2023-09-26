@@ -22,7 +22,7 @@ However, creating view transitions on the web has historically been difficult. T
 - Stop accidental user interactions with the old content from causing problems.
 - Remove the old content once the transition is complete.
 
-Accessibility issues like loss of reading position, focus confusion, and strange live region announcement behavior can also result from having the new and old content both present in the DOM at once. In addition, cross-document view transitions (i.e. across different pages in regular, non-SPA websites) are impossible.
+Accessibility issues like loss of reading position, focus confusion, and strange live region announcement behavior can also result from having the new and old content both present in the DOM at once. In addition, cross-document view transitions (i.e., across different pages in regular, non-SPA websites) are impossible.
 
 The View Transitions API provides a much easier way of handling the required DOM changes and transition animations.
 
@@ -30,7 +30,7 @@ The View Transitions API provides a much easier way of handling the required DOM
 
 ### Creating a basic view transition
 
-As an example, an SPA may include functionality to fetch new content and update the DOM in response to an event of some kind, such as a navigation link being clicked or an update being pushed from the server. In our [Basic View Transitions demo](https://mdn.github.io/dom-examples/view-transitions/) we've simplified this to a `displayNewImage()` function that shows a new full-size image based on the thumbnail that was clicked. We've encapsulated this inside an `updateView()` function that only calls the View Transition API if the browser supports it:
+As an example, a SPA may include functionality to fetch new content and update the DOM in response to an event of some kind, such as a navigation link being clicked or an update being pushed from the server. In our [Basic View Transitions demo](https://mdn.github.io/dom-examples/view-transitions/) we've simplified this to a `displayNewImage()` function that shows a new full-size image based on the thumbnail that was clicked. We've encapsulated this inside an `updateView()` function that only calls the View Transition API if the browser supports it:
 
 ```js
 function updateView(event) {
