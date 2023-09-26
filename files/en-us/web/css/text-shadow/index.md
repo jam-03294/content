@@ -49,7 +49,7 @@ This property applies to both {{cssxref("::first-line")}} and {{cssxref("::first
 ### Values
 
 - {{cssxref("&lt;color&gt;")}}
-  - : Optional. The color of the shadow. It can be specified either before or after the offset values. If unspecified, the color's value is left up to the user agent, so when consistency across browsers is desired you should define it explicitly.
+  - : Optional. The color of the shadow. It can be specified either before or after the offset values. If unspecified, the color's value is left up to the user agent, so when consistency across browsers is desired, you should define it explicitly.
 - `<offset-x> <offset-y>`
   - : Required. These {{cssxref("&lt;length&gt;")}} values specify the shadow's distance from the text. `<offset-x>` specifies the horizontal distance; a negative value places the shadow to the left of the text. `<offset-y>` specifies the vertical distance; a negative value places the shadow above the text. If both values are `0`, the shadow is placed directly behind the text, although it may be partly visible due to the effect of `<blur-radius>`.
 - `<blur-radius>`
